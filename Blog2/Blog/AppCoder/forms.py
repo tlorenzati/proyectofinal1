@@ -1,13 +1,16 @@
-from django.forms import Form, CharField
+from django.forms import Form, CharField, ImageField
 
 class FutbolistaForm(Form):
     nombre = CharField()
-    club = CharField()
+    contenido = CharField()
     
 class BasquetbolistaForm(Form):
     nombre = CharField()
-    club = CharField()
+    contenido = CharField()
     
 class RugbierForm(Form):
     nombre = CharField()
-    club = CharField()
+    contenido = CharField()
+    
+class AvatarFormulario(Form):
+    imagen = ImageField(required=True)
