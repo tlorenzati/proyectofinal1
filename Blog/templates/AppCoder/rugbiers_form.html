@@ -1,0 +1,32 @@
+
+{% extends 'AppCoder/padre.html' %}
+
+{% load static %}
+
+
+
+{% block titulo %}
+
+<h3>Agregar Rugbiers</h3>
+
+{% endblock %}
+
+
+
+{% block PaginaWeb %}
+
+<h3>{% if form.errors %}
+    <p style="color: red;">{{ form.errors }}</p>
+{% endif %}
+
+<form action="" method="POST"> 
+{% csrf_token %}
+
+<table>
+    {{ form.as_table }}
+</table>
+
+<input type="submit" value="ENVIAR"> </h3>
+</form> 
+
+{% endblock %}

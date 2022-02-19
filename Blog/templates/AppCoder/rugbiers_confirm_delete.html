@@ -1,0 +1,27 @@
+
+{% extends 'AppCoder/padre.html' %}
+
+{% load static %}
+
+
+
+{% block titulo %}
+
+<h3>Eliminar Rugbier</h3>
+
+{% endblock %}
+
+
+
+{% block PaginaWeb %}
+    <form action="" method="POST">
+        {% csrf_token %}
+
+        <ul> 
+            <li>Nombre: {{ rugbiers.nombre }}</li> 
+            <li>Apellido: {{ rugbiers.contenido }}</li>
+        </ul>
+
+        <input type="submit" value="Borrar">
+    </form>
+{% endblock %}

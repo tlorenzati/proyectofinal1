@@ -1,0 +1,29 @@
+{% extends 'AppCoder/padre.html' %}
+
+{% load static %}
+
+
+
+{% block titulo %}
+
+<h3>Rugbiers</h3>
+
+{% endblock %}
+
+
+
+{% block PaginaWeb %}
+
+<h1>RUGBIERS FAMOSOS</h1>
+<p>     {% for rugbier in rugbiers %}
+    {{ rugbier }}
+    <a href="{% url 'rugbiers_delete' rugbier.id %}">Eliminar</a>
+    <a href="{% url 'rugbiers_update' rugbier.id %}">Editar</a>
+    <br>
+{% endfor %}
+<a class="btn btn-primary" href="{% url 'rugbiers_form' %}">Agregar</a><p>
+
+{% endblock %}
+
+
+

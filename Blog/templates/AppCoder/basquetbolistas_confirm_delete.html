@@ -1,0 +1,27 @@
+
+{% extends 'AppCoder/padre.html' %}
+
+{% load static %}
+
+
+
+{% block titulo %}
+
+<h3>Eliminar Basquetbolista</h3>
+
+{% endblock %}
+
+
+
+{% block PaginaWeb %}
+    <form action="" method="POST">
+        {% csrf_token %}
+
+        <ul> 
+            <li>Nombre: {{ basquetbolistas.nombre }}</li> 
+            <li>Apellido: {{ basquetbolistas.contenido }}</li>
+        </ul>
+
+        <input type="submit" value="Borrar">
+    </form>
+{% endblock %}

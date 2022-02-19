@@ -1,0 +1,31 @@
+{% extends 'AppCoder/padre.html' %}
+
+{% load static %}
+
+
+
+{% block titulo %}
+
+<h3>Basquetbolistas</h3>
+
+{% endblock %}
+
+
+
+{% block PaginaWeb %}
+
+<h1>BASQUETBOLISTAS FAMOSOS</h1>
+<p> 
+
+    {% for basquetbolista in basquetbolistas %}
+        {{ basquetbolista }}
+        <a href="{% url 'basquetbolistas_delete' basquetbolista.id %}">Eliminar</a>
+        <a href="{% url 'basquetbolistas_update' basquetbolista.id %}">Editar</a>
+        <br>
+    {% endfor %}
+<a class="btn btn-primary" href="{% url 'basquetbolistas_form' %}">Agregar</a>
+    ​<p>
+{% endblock %}
+
+
+

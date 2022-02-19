@@ -1,0 +1,29 @@
+{% extends 'AppCoder/padre.html' %}
+
+{% load static %}
+
+
+
+{% block titulo %}
+
+<h3>Futbolistas</h3>
+
+{% endblock %}
+
+
+
+{% block PaginaWeb %}
+
+<h1>FUTBOLISTAS FAMOSOS</h1>
+<p>         {% for futbolista in futbolistas %}
+    {{ futbolista }}
+    <a href="{% url 'futbolistas_delete' futbolista.id %}">Eliminar</a>
+    <a href="{% url 'futbolistas_update' futbolista.id %}">Editar</a>
+    <br>
+{% endfor %}
+<a class="btn btn-primary" href="{% url 'futbolistas_form' %}">Agregar</a>​<p>
+
+{% endblock %}
+
+
+
