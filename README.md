@@ -17,7 +17,8 @@ Pasos:
 2.	Ejecutar el comando "python manage.py runserver" e ingresar al link del servidor agregando "/AppCoder/deportistas" para ingresar a la vista inicio de la web, en la cual a partir de este momento, podrás navegar en ella.
 3.	Para poder acceder a todo el contenido de la web deberas registrarte, primero apretando el boton LOGIN y luego el vinculo Registrarse, una vez creado el usuario te deberas loguear y ya podras disfrutar de todo el contenido.
 4.	Podras ver los post ya creados, crear nuevos, modificar y eliminarlos si asi lo deseas.
-5.	También podras insertar una imagen relacionada al usuario (avatar) y en el caso que lo desees también modificar dicha imagen.
+5.  Podrás editar tu perfil en el caso que lo requieras, apretando en el boton Editar Perfil.
+6.	También podras insertar una imagen relacionada al usuario (avatar) y en el caso que lo desees también modificar dicha imagen.
 
 La web consta de un menu que lleva a las siguientes vistas:
 
@@ -31,12 +32,16 @@ La web consta de un menu que lleva a las siguientes vistas:
 
 •	Login
 
-•	Logout
+•   Editar Perfil
 
 •	Cambiar imagen (avatar)
+
+•	Logout
 
 •	Contacto
 
 
 Autores:
 Matias Pedro Lorenzati
+Miguel Iribarren
+Maximiliano Settecerze
