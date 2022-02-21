@@ -13,8 +13,8 @@ Requisitos:
 *Django: Framework de desarrollo web de código abierto, escrito en Python.
 
 Pasos:
-1.	Una vez copiado este repositorio en tu pc, abrir la carpeta en VisualCode, abrir la terminal y ubicarse en la carpeta /Blog2/blog.
-2.	Ejecutar el comando "python manage.py runserver" e ingresar al link del servidor agregando "/AppCoder/deportistas" para ingresar a la vista inicio de la web, en la cual a partir de este momento, podrás navegar en ella.
+1.	Una vez copiado este repositorio en tu pc, abrir la carpeta en VisualCode, abrir la terminal y ubicarse en la carpeta /proyectofinal1/blog.
+2.	Ejecutar el comando "python manage.py runserver" e ingresar al link del servidor agregando "http://127.0.0.1:8000/deportistas" para ingresar a la vista inicio de la web, en la cual a partir de este momento, podrás navegar en ella.
 3.	Para poder acceder a todo el contenido de la web deberas registrarte, primero apretando el boton LOGIN y luego el vinculo Registrarse, una vez creado el usuario te deberas loguear y ya podras disfrutar de todo el contenido.
 4.	Podras ver los post ya creados, crear nuevos, modificar y eliminarlos si asi lo deseas.
 5.	También podras insertar una imagen relacionada al usuario (avatar) y en el caso que lo desees también modificar dicha imagen.
@@ -40,3 +40,5 @@ La web consta de un menu que lleva a las siguientes vistas:
 
 Autores:
 Matias Pedro Lorenzati
+Miguel Irribarren
+Maximiliano Setterceze
