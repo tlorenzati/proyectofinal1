@@ -45,3 +45,37 @@ Matias Pedro Lorenzati
 Miguel Irribarren
 
 Maximiliano Setterceze
+
+=======================================================
+
+Progreso de funciones:
+
+NavBar: Matias
+
+Inicio: Todos
+
+About: Miguel
+
+Pages: Todos
+
+Login: Matias
+
+Logout: Maxi
+
+Registrarse: Matias
+
+Profile: Matias
+
+Get pages: Matias
+
+Create page: Matias
+
+Update Page: Miguel
+
+Delete page: Matias
+
+Get profile: Matias
+
+Update profile: Maxi
+
+Cambiar imagen: Matias
